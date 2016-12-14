@@ -9,7 +9,7 @@ CREATE TABLE products
 
 INSERT INTO products
 (name, description, price, imageurl)
-VALUES ('Viagra', 'Helps with performance issues.', 5.00, 'www.urlofphoto.com');
+VALUES ('Viagra', 'Helps with performance issues.', 5.00, 'https://s-media-cache-ak0.pinimg.com/originals/8b/a7/b5/8ba7b525ad52ee3dfa8a49ada70b5dfd.jpg');
 
 INSERT INTO products
 (name, description, price, imageurl)

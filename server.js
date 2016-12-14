@@ -19,9 +19,9 @@ app.get('/products', productsCtrl.readAll);
 
 app.get('/product', productsCtrl.readProduct);
 
-app.post('/products/add', productsCtrl.create);
+app.post('/products/add', productsCtrl.createProduct);
 
-app.put('/product/update', productsCtrl.update);
+app.put('/product/update', productsCtrl.updateProduct);
 
 app.delete('/products/remove', productsCtrl.deleteProduct);
 

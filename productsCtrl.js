@@ -14,13 +14,13 @@ module.exports = {
     });
   },
 
-  create: function(req, res, next) {
+  createProduct: function(req, res, next) {
     db.create_product([req.body.name, req.body.description, req.body.price, req.body.imageurl], function(err, products) {
       res.status(200).send(products);
     });
   },
 
-  update: function(req, res, next) {
+  updateProduct: function(req, res, next) {
     db.update_product([req.query.id, req.query.description], function(err, products) {
       res.status(200).send(products);
     });
