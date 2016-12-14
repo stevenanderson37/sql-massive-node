@@ -21,7 +21,7 @@ module.exports = {
   },
 
   update: function(req, res, next) {
-    db.update_product([req.query.description, req.query.id], function(err, products) {
+    db.update_product([req.query.id, req.query.description], function(err, products) {
       res.status(200).send(products);
     });
   },
